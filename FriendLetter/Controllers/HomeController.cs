@@ -17,9 +17,9 @@ namespace FriendLetter.Controllers
     }
 
     [Route("/")]
-    public string Letter()
+    public ActionResult Letter()
     {
-      return "Our virtual postcard will go here soon!";
+      return View();
     }
   }
 }
